@@ -1,0 +1,45 @@
+{
+  "name": "aframe-next-static",
+  "version": "1.0.0",
+  "description": "Boilerplate for building virtual reality experiences with A-Frame and Nextjs.",
+  "dependencies": {
+    "aframe": "^0.7.0",
+    "aframe-animation-component": "^3.2.5",
+    "aframe-particle-system-component": "^1.0.8",
+    "aframe-react": "4.3.0",
+    "next": "^4.0.0-beta.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "static": "next export",
+    "build:static": "next build && next export",
+    "deploy": "npm run build:static && cd out && now -n aframe-next-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaltakac/aframe-next-static.git"
+  },
+  "keywords": [
+    "aframe",
+    "react",
+    "vr",
+    "boilerplate",
+    "a-frame",
+    "nextjs",
+    "reactvr",
+    "aframe-react",
+    "webvr",
+    "static"
+  ],
+  "author": "Michal Takac <hello@michaltakac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaltakac/aframe-next-static/issues"
+  },
+  "homepage": "https://github.com/michaltakac/aframe-next-static#readme"
+}
