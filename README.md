@@ -2,7 +2,7 @@
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/michaltakac/aframe-next-static)
 
-This boilerplate leverage extremely simple deployment flow from Zeit's Now, now available for WebVR with A-Frame and React!
+This boilerplate leverages extremely simple deployment flow from Zeit's Now, now available for WebVR with A-Frame and React!
 
 ### Libraries
 
