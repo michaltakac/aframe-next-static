@@ -3,3 +3,4 @@ npm-debug.log
 *.sw[ponm]
 out
 .next
+.DS_Store

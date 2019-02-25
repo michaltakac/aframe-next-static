@@ -14,7 +14,6 @@ export default class extends React.Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {
       require('aframe')
-      require('aframe-animation-component')
       require('aframe-particle-system-component')
       this.setState({ appRendered: true })
     }
